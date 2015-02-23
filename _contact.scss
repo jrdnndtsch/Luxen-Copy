@@ -1,0 +1,55 @@
+.contact{
+	padding: 100px 0;
+	.third{
+		background: #FEFEFE;
+		padding: 20px;
+		text-align: center;
+		color: #A7A7A7;
+		line-height: 2rem;
+		font-size: 1.2rem;
+		position: relative;
+
+		h3{
+			text-transform: uppercase;
+			font-size: 1.5rem;
+			letter-spacing: .15rem;
+			color: black;
+			margin-top: 35px;
+
+		}
+		.icon{
+			background: #344D54;
+			opacity:0.9;
+			text-align: center;
+			color: white;
+			border-radius: 50%;
+			position: absolute;
+			top:-2%;
+			left:50%;
+			transform: translate(-50%, -50%);
+
+
+			i{
+				padding:25px;
+
+			}
+		}
+	}
+}
+
+// ====================
+// MEDIAQUERIES 
+// ====================
+@media(max-width: 740px){
+	.contact{
+		margin-top: 50px;
+		.third{
+			width: 90%;
+			margin-left: 5%;
+			margin-bottom: 70px;
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+	}
+}

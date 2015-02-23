@@ -1,0 +1,431 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1">
+	<link rel="stylesheet" href="main.css">
+	<link href='http://fonts.googleapis.com/css?family=Calligraffitti|Muli:300,400|Varela+Round' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<title>Luxen</title>
+</head>
+<body>
+	<div class="wrapper">
+
+		<header>
+			<nav class="topNav clearfix">
+				<div class="innerWrapper clearfix">
+					<div class="topNav__address clearfix">
+						<p><i class="fa fa-map-marker"></i> Manhattan square. 124 avenue. marmaris</p>
+					</div> <!-- end .topNav__address -->
+					<div class="topNav--right clearfix">
+						<div class="topNav__links">
+							<ul>
+								<li><a href="#">About</a></li>
+								<li><a href="#">Contact</a></li>
+								<li><a href="#">Add Your Link</a></li>
+							</ul> 
+						</div><!-- topNav__links -->	
+						<div class="topNav__language">
+							<img src="images/unionjack.png"  alt="union jack" class="topNav__language__img">
+							<p>English</p>
+						</div> <!-- end .topNav__language -->
+					</div> <!-- end .--right -->
+				</div> <!-- end .innerWrapper -->	
+			</nav> <!-- end .topNav -->
+
+			<nav class="mainNav clearfix">
+				<div class="innerWrapper clearfix">
+					<div class="mainNav__logo">
+						<img src="images/logo.png"  alt="Luxen Logo">
+					</div>
+					<div class="mainNav__hamburger">
+						<i class="fa fa-bars"></i>
+					</div><!-- end .hamburger -->	
+					<ul class="mainNav__links">
+						<li><a href="#" class="currentPage">Home Page</a></li>
+						<li><a href="#">Accomodation</a></li>
+						<li><a href="#"><i class="fa fa-chevron-down"></i> Features</a>
+							<ul class="mainNav__featuresDropDown"></ul>
+						</li>
+						<li class="mainNav__news"><a href="#">News</a></li>
+						<li><a href="#"><i class="fa fa-chevron-down"></i> Contact</a>
+							<ul class="mainNav__contactDropDown"></ul>
+						</li>
+						<li><a href="#" class="button" ><i class="fa fa-calendar"></i> Book Now</a></li>
+					</ul> <!-- end ul.mainNav__links -->
+					
+				</div><!--  end.innerWrapper -->
+			</nav> <!-- end .mainNav -->
+		</header> <!-- end header -->	
+
+		<section class="hero">
+			<div class="hero__img">
+				<div class="innerWrapper clearfix">
+					<h2>Welcome to Luxen Hotel Paradise Nonet</h2>
+					<h3>Mystic Sytion Tor</h3>
+				</div><!-- end .innerWrapper -->	
+			</div> <!-- end .hero__img -->
+			<div class="reservation__tabs">
+				<a href="#" class="reservation__tabs--cal"><i class="fa fa-calendar"></i> Reservation</a>
+				<a href="#" class="reservation__tabs--check"><i class="fa fa-check-square-o"></i> Cancelled</a>
+			</div> <!-- end .hero__resTabs -->
+		</section> <!-- end .hero -->	
+
+		<section class="reservation clearfix">
+			<div class="innerWrapper">
+				
+
+				<div class="reservation__form__all">
+					<form action="reservation.php">
+						<div class="reservation__form arrival">
+							<label for="arrival">Arrival</label>
+							<span class="input__icon">
+								<input type="text" name="arrival" placeholder="2 February 2015" class="fill">
+							</span>	
+						</div> <!-- end .--arrival -->	
+						<div class="reservation__form return">
+							<label for="return">Return</label>
+							<span class="input__icon">
+								<input type="text" name="return" placeholder="2 March 2015" class="fill">
+							</span>	
+						</div> <!-- end .--return -->
+						<div class="reservation__form adult">
+							<label for="adult">Adult</label>
+							<span class="select__icon">	
+								<select name="adult" id="adult" class="fill">
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+									<option value="10">10</option>
+								</select>
+							</span>	
+						</div> <!-- end .--adult -->
+						<div class="reservation__form children">								<label for="children">Children</label>
+							<span class="select__icon">	
+								<select name="children" id="children" class="fill">
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+									<option value="10">10</option>
+								</select>
+							</span>	
+						</div> <!-- end .--children -->
+						<div class="reservation__form rooms">
+							<label for="rooms">Rooms</label>
+							<span class="select__icon">	
+								<select name="rooms" id="rooms" class="fill">
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+									<option value="10">10</option>
+								</select>
+							</span>	
+						</div><!-- end . --rooms -->
+						<div class="reservation__form submit">	
+							<input type="submit" value="Search" class="button">
+						</div><!-- end.--submit -->	
+					</form>
+				</div> <!-- end .hero__resForm -->
+				<div class="reservation__features clearfix">
+					<ul>
+						<li><i class="fa fa-shopping-cart"></i> Woocommerce Compatible</li>
+						<li><i class="fa fa-globe"></i> Language Compatible</li>
+						<li><i class="fa fa-coffee"></i> Coffee Free</li>
+						<li><i class="fa fa-windows"></i> Free Wifi AllRoom</li>
+					</ul>
+				</div> <!-- end .hero__resFeatures -->
+			</div> <!-- end .innerWrapper -->
+		</section> <!-- end .reservation -->
+
+		<section class="paradise clearfix">
+			<div class="innerWrapper">
+				<div class="intro clearfix">
+					<h3>Welcome to Paradise</h3>
+					<div class="flourish">
+						<img src="images/ornamentalOrange.png" alt="flourish">
+					</div> <!-- end .flourish -->
+					<div class="paradise__intro--text">	
+						<p>Lorem ipsum dolor sit amet, consectetur <a href="#">adipisicing</a> elit. A sunt eveniet quia odio commodi officiis est ut iusto dolorum architecto at, nisi modi vitae tempore molestiae dolores numquam unde cupiditate!</p>
+					</div> <!-- end --text -->
+				</div> <!-- end .intro -->
+				<div class="paradise__gallery third clearfix">
+					<h4>Gallery</h4>
+					<img src="http://placehold.it/320x175" alt="">
+					<!-- <img src="http://placehold.it/300x200" alt="">
+					<img src="http://placehold.it/300x200" alt="">
+					<img src="http://placehold.it/300x200" alt="">
+					<img src="http://placehold.it/300x200" alt="">
+					<img src="http://placehold.it/300x200" alt=""> -->
+				</div> <!-- end .paradise__gallery -->
+				<div class="paradise__aboutUs third">
+					<h4>About Us</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet at reprehenderit molestiae laboriosam, voluptatum, fuga, dicta architecto iure eius aperiam qui laudantium cupiditate maiores asperiores.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae itaque sunt, repudiandae consectetur officia non fuga eaque adipisci, aliquid praesentium distinctio. In numquam nostrum praesentium!</p>
+				</div> <!-- end .paradise__about -->
+				<div class="paradise__news third">
+					<h4>Our News</h4>
+					<div class="news__item1--box">
+						<div class="news__item1 date">
+							<p class="day">20</p>
+							<p class="month">May</p>
+						</div>
+						<div class="news__item1 info">
+							<h5>News from us from now</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, voluptas.  <a href="#">[...]</a></p>
+						</div>
+					</div> <!-- end news__item1 -->
+					<div class="news__item2--box">
+						<div class="news__item2 date">
+							<p class="day">20</p>
+							<p class="month">May</p>
+						</div>
+						<div class="news__item2 info">
+							<h5>News from us from now</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit.<a href="#">[...]</a></p>
+						</div>
+					</div> <!-- end news__item1 -->
+				</div> <!-- end .paradise__news -->
+			</div> <!-- end .innerWrapper -->
+		</section> <!-- end .paradise -->
+
+		<section class="explore clearfix">
+			<div class="innerWrapper">
+				<h2>Explore Rooms</h2>
+				<div class="explore__room1 third">
+					<div class="explore__room--float">
+						<img src="http://placehold.it/320x200" alt="Luxury Hotel Room">
+						<div class="explore__room1 info">
+							<h5>The luxury room in Istanbul</h5>
+							<div class="explore__room1 icons">
+								<div class="explore__icons">
+									<i class="fa fa-calendar"></i>
+									<i class="fa fa-flask"></i>
+									<i class="fa fa-umbrella"></i>
+									<i class="fa fa-laptop"></i>
+								</div>
+								<div class="explore__star">
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+								</div>
+							</div> <!-- end explore__room1__icons -->
+						</div> <!-- end .explore__room1__info -->
+					</div> <!-- end. float -->	
+					<div class="explore__room__caption">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quos quod vero dolor rerum quas! Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div> <!-- end .__caption -->
+					<div class="explore__room__price">
+						<p><span class="price">89$</span>/day</p>
+						<div class="button">Book Now</div>
+					</div> <!-- end.__price -->
+				</div> <!-- end .explore__room1 -->
+				<div class="explore__room2 third">
+					<div class="explore__room--float">
+						<img src="http://placehold.it/320x200" alt="Luxury Hotel Room">
+						<div class="explore__room2 info">
+							<h5>The luxury room in Istanbul</h5>
+							<div class="explore__room2 icons">
+								<div class="explore__icons">
+									<i class="fa fa-calendar"></i>
+									<i class="fa fa-flask"></i>
+									<i class="fa fa-umbrella"></i>
+									<i class="fa fa-laptop"></i>
+								</div>
+								<div class="explore__star">
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+								</div>
+							</div> <!-- end explore__room2__icons -->
+						</div> <!-- end .explore__room2__info -->
+					</div>
+					<div class="explore__room__caption">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quos quod vero dolor rerum quas! Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div> <!-- end .__caption -->
+					<div class="explore__room__price">
+						<p><span class="price">89$</span>/day</p>
+						<div class="button">Book Now</div>
+					</div> <!-- end.__price -->
+				</div> <!-- end .explore__room2 -->
+				<div class="explore__room3 third">
+					<div class="explore__room--float">
+						<img src="http://placehold.it/320x200" alt="Luxury Hotel Room">
+						<div class="explore__room3 info">
+							<h5>The luxury room in Istanbul</h5>
+							<div class="explore__room3 icons">
+								<div class="explore__icons">
+									<i class="fa fa-calendar"></i>
+									<i class="fa fa-flask"></i>
+									<i class="fa fa-umbrella"></i>
+									<i class="fa fa-laptop"></i>
+								</div>
+								<div class="explore__star">
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+								</div>
+							</div> <!-- end explore__room3__icons -->
+						</div> <!-- end .explore__room3__info -->
+					</div>
+					<div class="explore__room__caption">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quos quod vero dolor rerum quas!Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div> <!-- end .__caption -->
+					<div class="explore__room__price">
+						<p><span class="price">89$</span>/day</p>
+						<div class="button">Book Now</div>
+					</div> <!-- end.__price -->
+				</div> <!-- end .explore__room3 -->
+			</div> <!-- end.innerWrapper -->
+		</section><!-- end .explore -->
+
+		<section class="contact clearfix">
+			<div class="innerWrapper">
+				<div class="contact__phone third">
+					<div class="contact__phone icon">
+						<i class="fa fa-phone"></i>
+					</div>
+					<div class="contact__phone__content">
+						<h3>Call Us</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, cum! Lorem ipsum some words.</p>
+					</div>
+				</div><!-- end .contact__phone -->
+				<div class="contact__email third">
+					<div class="contact__email icon">
+						<i class="fa fa-envelope-o"></i>
+					</div>
+					<div class="contact__email__content">
+						<h3>Send Us E-Mail</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, cum! Lorem ipsum dolar sin.</p>
+					</div>
+				</div> <!-- end .contact__email -->
+				<div class="contact__address third">
+					<div class="contact__address icon">
+						<i class="fa fa-home"></i>
+					</div>
+					<div class="contact__address__content">
+						<h3>Our Address</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, cum! Lorem ipsum sorto plum.</p>
+					</div>
+				</div> <!-- end .contact__address -->
+			</div> <!-- end .innerWrapper -->	
+		</section> <!-- end .contact -->
+
+		<section class="newsletter clearfix">
+			<div class="innerWrapper clearfix">
+				<div class="flourish">
+					<img src="images/ornamentalOrange.png" alt="flourish">
+				</div>
+				<div class="form">
+					<form action="newsletter.php">
+						<label for="signUp">Sign up newsletter</label>
+						<input type="text" name="signUp" placeholder="enter an e-mail address" class="inputText">
+						<input type="submit" value="Subscribe" class="button">
+					</form>
+				</div>	
+			</div> <!-- end .innerWrapper -->	
+		</section> <!-- end .newsletter -->
+
+		<footer class="footer clearfix">
+			<div class="mainFooter clearfix">
+				<div class="innerWrapper">
+					<div class="logo fifth">
+						<img src="images/logoBlack.png" height="58" width="108" alt="Luxen Logo">
+					</div> <!-- end .logo.fifth -->
+					<div class="social fifth">
+						<h5>Touch With Us</h5>
+						<ul class="footer__fifth">
+							<li>Facebook</li>
+							<li>Twitter</li>
+							<li>Google +</li>
+							<li>Hotels.com</li>
+							<li>Tripadvisor</li>
+						</ul>
+					</div> <!-- end .social .fifth -->
+					<div class="aboutLux fifth">
+						<h5>About Luxen</h5>
+						<ul class="footer__fifth">
+							<li>Ask A Question</li>
+							<li>Get More From Apex</li>
+							<li>Environment</li>
+							<li>Useful Sites</li>
+						</ul>	
+					</div> <!-- end .aboutLux .fifth -->
+					<div class="pages fifth">
+						<h5>Pages Sites</h5>
+						<ul class="footer__fifth">
+							<li>Rooms 1</li>
+							<li>Rooms 2</li>
+							<li>Rooms 3</li>
+							<li>Ask A Question</li>
+						</ul>
+					</div> <!-- end .pages .fifth -->
+					<div class="contactUs fifth">
+						<h5>Contact</h5>
+						<ul class="footer__fifth">
+							<li><i class="fa fa-map-marker"></i> Lorem impsum dolar sit amet lorem</li>
+							<li>Victoria 801 Australia</li>
+							<li><i class="fa fa-phone"></i> +61 3 8376 6284</li>
+							<li><i class="fa fa-envelope-o"></i> info@2035themes.com</li>
+						</ul>
+					</div> <!-- end.contactUs.fifth -->
+				</div> <!-- end .innerWrapper -->
+			</div> <!-- end .mainFooter -->
+
+			<div class="secondaryFooter clearfix">
+				<div class="innerWrapper clearfix">
+					<div class="secondaryFooter half copy">
+						<p>&copy; Luxen Hotels 2013</p>
+					</div> <!-- end .copyRight -->
+					<div class="secondaryFooter half connect">
+						<div class="secondaryFooter__connect">
+							<p>Connect with us</p>
+							<div class="socialIcons">
+								<img src="images/fbIcon.png" alt="Facebook">
+								<img src="images/tripAdvisorIcon.png" alt="Trip Advisor">
+								<img src="images/yelpIcon.png" alt="Yelp">
+								<img src="images/twitterIcon.png"  alt="twitter">
+							</div>	
+						</div>	
+					</div>	<!-- end .__social -->	
+				</div> <!-- end .innerWrapper -->
+			</div> <!-- end .secondaryFooter -->
+		</footer><!--  end footer -->
+		
+	</div> <!-- end .wrapper -->
+
+<!-- ========
+J Query
+======== -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>	
+
+	<script>
+	$(function(){
+		$('.mainNav__hamburger').on('click', function(){
+			$('.mainNav__links').slideToggle(800);
+		});
+	})
+
+	$(function(){
+		$('.reservation__tabs--cal').on('click', function(e){
+			e.preventDefault();
+			$('.reservation__form__all').slideToggle(800);
+		});
+	})
+		
+	</script>
+
+</body>
+</html>

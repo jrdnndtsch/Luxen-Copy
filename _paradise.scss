@@ -1,0 +1,193 @@
+.intro{
+	padding:5%;
+	h3{
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 2.4rem;
+		letter-spacing: 1.5;
+	}
+
+	.paradise__intro--text{
+		padding: 0 10%;
+		text-align: center;
+		font-size: 1.4rem;
+		color: #666;
+		line-height: 1.8;
+		a{
+			color: #E9A500;
+			text-decoration: none;
+		}
+	}
+}
+
+.flourish img{
+		margin:20px auto;
+		display: block;
+	}
+	
+
+.paradise{
+	margin: 20px 0;	
+	.third{
+		h4{
+			font-size: 1.5rem;
+			text-transform: uppercase;
+			&:after{
+				content: '';
+				height: 1.5px;
+				width: 20px;
+				background: #EDB31C;
+				position: relative;
+				display: block;
+				top: 10px;
+			}
+		}
+		p{
+			color: #888;
+			font-size: 1.2rem;
+			line-height: 2rem;
+			margin-top: 0;
+		}	
+	}
+}
+
+.paradise__gallery{
+	img{
+		width: 100%;
+	}
+}
+
+.paradise__news{
+
+	.news__item1--box{
+		border-bottom: 1px solid rgba(0,0,0,0.1);
+		margin-bottom: 10px;
+	}
+	.news__item2--box{
+		margin-top: 20px;
+	}
+	.date{
+		float: left;
+		text-align: center;
+
+
+		.day{
+			background: #EEB31C;
+			color: white;
+			font-size: 1.5rem;
+			padding: 5px 10px;
+			margin: 0;
+			border-radius: 3px;
+			position: relative;
+			&:after{
+				content: '';
+				height: 1px;
+				width: 37px;
+				background: rgba(255,255,255,0.5);
+				position: absolute;
+				display: block;
+				top: 14px;
+				left:0;
+
+	
+			}
+		}
+		.month{
+			margin: 0;
+		}
+	}
+	.info{
+		margin-left: 5rem;
+		a{
+			text-decoration: none;
+			color: #EDB21A;
+		}
+		h5{
+			font-size: 1.3rem;
+			margin: 0;
+		}
+	}
+}
+
+
+// =====================
+// MEDIA QUERIES !
+// =====================
+
+@media(max-width: 940px){
+	.paradise{
+		.innerWrapper{
+			width: 90%;
+		}
+		.paradise__aboutUs{
+			width: 45%;
+			margin: 0;
+			margin-left:5%;
+			margin-bottom: 20px;
+		}
+		.paradise__gallery{
+			margin-right: 5%;
+			width: 45%;
+			margin-bottom: 50px;
+		}
+		.paradise__news{
+			width: 100%;
+			h4{
+				text-align: center;
+				&:after{
+					margin: 0 auto;
+					margin-bottom: 25px;
+				}
+			}
+			.news__item1--box, .news__item2--box{
+				float: left;
+				display: inline-block;
+				
+				margin-top: 15px;
+			
+			}
+			.news__item1--box{
+				border-bottom: none;
+				width: 47%;
+				margin-right: 3%;
+			}
+			.news__item2--box{
+				margin-left: 3%;
+				width: 47%;
+			}
+		}
+			
+	}
+}
+
+@media(max-width:740px){
+	.paradise{
+		.paradise__aboutUs{
+			width: 90%;
+
+		}
+		.paradise__gallery{
+			width: 90%;
+			margin-left:5%;
+		}
+	}
+		
+}
+
+@media(max-width: 640px){
+	.paradise{
+		.paradise__news{
+			h4{
+				text-align: left;
+				margin-left: 5%;
+				&:after{
+					margin: 0;
+				}
+			}
+			.news__item1--box, .news__item2--box{
+				width: 90%;
+				margin: 15px 5%;
+			}
+		}
+	}
+}

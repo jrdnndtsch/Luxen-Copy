@@ -1,0 +1,1252 @@
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+audio, canvas, video {
+  display: inline-block; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+[hidden] {
+  display: none; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+a:focus {
+  outline: thin dotted; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+a:active, a:hover {
+  outline: 0; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+h1 {
+  font-size: 2em; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+b, strong {
+  font-weight: 700; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+dfn {
+  font-style: italic; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+q {
+  quotes: \201C \201D \2018 \2019; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+small {
+  font-size: 80%; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+sup {
+  top: -0.5em; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+sub {
+  bottom: -0.25em; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+img {
+  border: 0; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+button, input {
+  line-height: normal; }
+
+/* line 2, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+/* line 2, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+button[disabled], input[disabled] {
+  cursor: default; }
+
+/* line 2, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0; }
+
+/* line 2, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+input[type=search] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box; }
+
+/* line 2, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/* line 2, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+/* line 2, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 2, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+body, figure {
+  margin: 0; }
+
+/* line 2, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 4, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+/* line 6, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 8, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+html {
+  font-size: 10px; }
+
+/* line 12, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+body {
+  font-family: 'Muli'; }
+
+/* line 16, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Varela Round'; }
+
+/* line 20, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+img {
+  max-width: 100%; }
+
+/* line 24, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.innerWrapper {
+  max-width: 1170px;
+  width: 80%;
+  margin: 0 auto; }
+
+/*===================================
+MIXINS! and shit
+===================================*/
+/* line 41, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.third {
+  width: 31.33%;
+  float: left;
+  margin-right: 3%; }
+  /* line 45, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+  .third:last-child {
+    margin-right: 0; }
+
+/*===================================
+TOP NAV
+===================================*/
+/* line 62, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.topNav {
+  background: #3F3737;
+  color: #B3B2B0;
+  width: 100%; }
+
+/* line 69, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.topNav__address {
+  width: 50%;
+  float: left;
+  margin-top: 10px; }
+
+/* line 75, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.topNav--right {
+  float: right;
+  width: 50%;
+  text-align: right;
+  margin-top: 10px; }
+
+/* line 85, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.topNav__links {
+  float: left;
+  width: calc(100% - 80px); }
+
+/* line 90, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.topNav li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 5%;
+  padding-right: 5%; }
+
+/* line 99, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.topNav a {
+  text-decoration: none;
+  color: #B3B2B0; }
+
+/* line 103, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.topNav__language {
+  float: right;
+  margin-right: 0;
+  padding-left: 25px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  position: relative; }
+
+/* line 110, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.topNav__language img {
+  float: right;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  margin-right: 10px; }
+
+/* line 117, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.topNav__language p {
+  float: right;
+  text-transform: uppercase; }
+
+@media (max-width: 840px) {
+  /* line 127, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+  .innerWrapper {
+    width: 95%; }
+    /* line 129, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+    .innerWrapper .topNav__address {
+      width: 100%; }
+      /* line 131, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+      .innerWrapper .topNav__address p {
+        margin-bottom: 0; }
+    /* line 135, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+    .innerWrapper .topNav--right {
+      width: 100%; }
+      /* line 137, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+      .innerWrapper .topNav--right .topNav__links {
+        width: 100%;
+        float: none;
+        margin: 0; }
+        /* line 141, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+        .innerWrapper .topNav--right .topNav__links ul {
+          margin: 0;
+          padding-left: 0; }
+          /* line 144, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+          .innerWrapper .topNav--right .topNav__links ul li {
+            width: 100%;
+            margin: 0;
+            text-align: left;
+            padding: 0;
+            padding-top: 5px; }
+      /* line 155, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+      .innerWrapper .topNav--right .topNav__language {
+        border: none; }
+ }
+
+/*===================================
+MAIN NAV
+===================================*/
+/* line 167, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.mainNav {
+  background: #322C2C;
+  text-transform: uppercase;
+  color: white; }
+
+/* line 175, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.mainNav__logo {
+  float: left;
+  width: 30%;
+  padding: 25px 0; }
+
+/* line 182, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.mainNav__links {
+  margin: 0;
+  width: 70%;
+  float: left;
+  padding-left: 0; }
+
+/* line 189, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.mainNav__links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  display: inline-block;
+  float: left;
+  padding: 50px 0px;
+  width: 16.99999%;
+  text-align: center;
+  font-size: 1.1rem; }
+
+/* line 201, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.mainNav__news a {
+  width: 12%; }
+
+/* line 204, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.mainNav .button {
+  width: 20%; }
+
+/* line 207, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.mainNav__links li {
+  list-style: none; }
+
+/* line 211, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.mainNav__hamburger {
+  width: 20%;
+  float: right;
+  padding: 30px 30px;
+  font-size: 3.5rem;
+  color: rgba(255, 255, 255, 0.8);
+  display: none; }
+
+/* line 220, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.mainNav__links a:after {
+  content: '';
+  height: 1px;
+  width: 20px;
+  background: #EDC373;
+  position: relative;
+  display: block;
+  margin: 0px auto;
+  top: 10px;
+  opacity: 0; }
+
+/* line 233, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.mainNav__links li:hover a {
+  color: #E3AC1E;
+  background: #231E1D; }
+
+/* line 238, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.mainNav__links li:hover a:after {
+  opacity: 1; }
+
+/* line 243, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.mainNav__links li:hover a.button:after {
+  opacity: 0; }
+
+/* line 248, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.mainNav__links .button {
+  background: #EEB31C;
+  padding: 10px 20px;
+  margin-top: 40px; }
+
+/* line 254, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.mainNav__links .currentPage {
+  color: #E3AC1E;
+  background: #231E1D; }
+
+/*===================================
+MAIN NAV MEDIA QUERIES!! ;D
+===================================*/
+@media (max-width: 1170px) {
+  /* line 264, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+  .innerWrapper {
+    max-width: 960px; }
+
+  /* line 267, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+  .mainNav__links a {
+    font-size: 0.9rem; }
+ }
+
+@media (max-width: 940px) {
+  /* line 274, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+  .mainNav {
+    position: relative; }
+
+  /* line 278, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+  .mainNav__links a {
+    display: block;
+    width: 100%;
+    padding: 25px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 1.5rem; }
+
+  /* line 285, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+  .mainNav__links .button {
+    width: 100%;
+    padding: 25px 0;
+    margin-top: 0; }
+
+  /* line 290, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+  .mainNav__logo {
+    float: none;
+    padding-left: 20px;
+    width: 70%;
+    display: inline-block; }
+
+  /* line 297, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+  .mainNav__hamburger {
+    display: inline-block; }
+
+  /* line 300, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+  .mainNav .innerWrapper {
+    width: 100%; }
+
+  /* line 304, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+  .mainNav__links {
+    width: 100%;
+    position: absolute;
+    z-index: 20;
+    background: #231D1C;
+    display: none; }
+ }
+
+/*===================================
+HERO
+===================================*/
+/* line 317, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.hero {
+  background: #272121;
+  background-image: url(images/istanbul.jpg);
+  background-size: cover;
+  position: relative; }
+
+/* line 326, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.hero__img {
+  color: white;
+  padding: 250px 0; }
+
+/* line 332, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.hero__img h2 {
+  background: black;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  font-size: 1.5rem;
+  display: inline-block;
+  float: left;
+  padding: 19px;
+  margin: 0;
+  padding-right: 200px;
+  -webkit-clip-path: polygon(0% 100%, 75% 100%, 85% -150%, 0px 0px); }
+
+/* line 345, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.hero__img h3 {
+  background: #EEB21C;
+  display: inline-block;
+  float: left;
+  clear: left;
+  padding: 13px;
+  margin: 0;
+  padding-right: 80px;
+  -webkit-clip-path: polygon(0% 100%, 75% 100%, 92% -150%, 0px 0px); }
+
+/*===================================
+HERO QUERIES
+===================================*/
+@media (max-width: 1170px) {
+  /* line 361, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+  .hero__img {
+    padding: 225px 0; }
+ }
+
+@media (max-width: 940px) {
+  /* line 367, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+  .hero__img {
+    padding: 200px 0; }
+ }
+
+/*===================================
+RESERVATION
+===================================*/
+/*Reservation Form*/
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+.reservation {
+  background: #1D1A1B;
+  background-image: url('images/bg_pattern.jpg');
+  color: white;
+  position: relative;
+  padding-top: 20px;
+  border-bottom: 3px solid rgba(238, 179, 21, 0.9); }
+
+/* line 10, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+.reservation__tabs {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  color: white;
+  text-transform: uppercase; }
+
+/* line 20, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+.reservation__tabs--cal {
+  background: #121011;
+  float: left;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+  margin-right: 10px;
+  margin-bottom: 0; }
+
+/* line 30, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+.reservation__tabs--check {
+  background: #EEB31C;
+  float: left;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  margin-bottom: 0; }
+
+/* line 38, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+.reservation__tabs a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 25px; }
+
+/* line 47, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+.reservation__form__all {
+  width: 100%; }
+  /* line 50, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+  .reservation__form__all .arrival, .reservation__form__all .return {
+    width: 25%;
+    position: relative; }
+  /* line 54, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+  .reservation__form__all .adult, .reservation__form__all .children, .reservation__form__all .rooms {
+    width: 12.5%;
+    position: relative; }
+
+/* line 60, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+.reservation__form {
+  display: inline-block; }
+  /* line 63, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+  .reservation__form label {
+    display: block;
+    text-transform: uppercase;
+    padding: 5px 0; }
+  /* line 70, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+  .reservation__form .fill {
+    background: #1D191A;
+    border: 1px solid #EEB31C;
+    border-radius: 0;
+    -webkit-appearance: none;
+    width: 75px;
+    padding: 5px;
+    color: white; }
+  /* line 81, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+  .reservation__form input.fill {
+    width: 200px;
+    color: #EEB31C; }
+    /* line 85, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+    .reservation__form input.fill::-webkit-input-placeholder {
+      color: white; }
+    /* line 88, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+    .reservation__form input.fill:-moz-placeholder {
+      color: white; }
+    /* line 91, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+    .reservation__form input.fill:-ms-input-placeholder {
+      color: white; }
+  /* line 96, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+  .reservation__form .select__icon {
+    position: relative; }
+    /* line 98, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+    .reservation__form .select__icon:after {
+      content: '\f107';
+      color: #EEB31C;
+      font-family: 'FontAwesome';
+      position: absolute;
+      top: 2px;
+      right: 11px;
+      z-index: 20; }
+  /* line 110, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+  .reservation__form .input__icon {
+    position: relative; }
+    /* line 112, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+    .reservation__form .input__icon:after {
+      content: '\f073';
+      color: #EEB31C;
+      font-family: 'FontAwesome';
+      position: absolute;
+      top: 0px;
+      right: 11px; }
+  /* line 122, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+  .reservation__form .button {
+    background: #EEB31C;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 15px;
+    border: none; }
+
+/* line 131, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+.reservation__features ul {
+  padding-left: 0; }
+  /* line 133, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+  .reservation__features ul li {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 25px 0;
+    border-right: 1px solid rgba(255, 255, 255, 0.2); }
+    /* line 141, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+    .reservation__features ul li:last-child {
+      border-right: none; }
+    /* line 144, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+    .reservation__features ul li i {
+      color: #ECB31D;
+      padding: 0 2px; }
+
+@media (max-width: 1170px) {
+  /* line 162, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+  .reservation__form input.fill {
+    width: 180px; }
+
+  /* line 170, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+  .reservation__features ul li {
+    padding: 15px 0;
+    margin-top: 10px; }
+ }
+
+@media (max-width: 940px) {
+  /* line 180, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+  .reservation {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    /* line 187, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+    .reservation .reservation__features li {
+      width: 50%;
+      padding: 10px; }
+      /* line 190, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+      .reservation .reservation__features li:nth-child(2) {
+        border-right: none; }
+
+  /* line 197, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+  .reservation__form__all {
+    display: none; }
+    /* line 199, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+    .reservation__form__all .arrival, .reservation__form__all .return {
+      width: 60%;
+      float: left;
+      margin: 0 20%;
+      margin-bottom: 10px; }
+      /* line 204, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+      .reservation__form__all .arrival input.fill, .reservation__form__all .return input.fill {
+        width: 100%; }
+    /* line 209, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+    .reservation__form__all .adult, .reservation__form__all .children, .reservation__form__all .rooms {
+      width: 18%;
+      margin-right: 3%;
+      float: left; }
+      /* line 213, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+      .reservation__form__all .adult select.fill, .reservation__form__all .children select.fill, .reservation__form__all .rooms select.fill {
+        width: 100%; }
+    /* line 217, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+    .reservation__form__all .rooms {
+      margin-right: 20%; }
+    /* line 220, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+    .reservation__form__all .adult {
+      margin-left: 20%; }
+
+  /* line 224, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+  .submit {
+    width: 100%; }
+    /* line 226, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+    .submit .button {
+      width: 60%;
+      margin: 20px 20%; }
+ }
+
+@media (max-width: 550px) {
+  /* line 237, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+  .reservation .reservation__features li {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+    /* line 241, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/reservation */
+    .reservation .reservation__features li:last-child {
+      border-bottom: none; }
+ }
+
+/*===================================
+PARADISE
+===================================*/
+/* line 387, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.paradise {
+  background: white; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+.intro {
+  padding: 5%; }
+  /* line 3, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+  .intro h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    letter-spacing: 1.5; }
+  /* line 10, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+  .intro .paradise__intro--text {
+    padding: 0 10%;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #666;
+    line-height: 1.8; }
+    /* line 16, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+    .intro .paradise__intro--text a {
+      color: #E9A500;
+      text-decoration: none; }
+
+/* line 23, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+.flourish img {
+  margin: 20px auto;
+  display: block; }
+
+/* line 29, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+.paradise {
+  margin: 20px 0; }
+  /* line 32, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+  .paradise .third h4 {
+    font-size: 1.5rem;
+    text-transform: uppercase; }
+    /* line 35, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+    .paradise .third h4:after {
+      content: '';
+      height: 1.5px;
+      width: 20px;
+      background: #EDB31C;
+      position: relative;
+      display: block;
+      top: 10px; }
+  /* line 45, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+  .paradise .third p {
+    color: #888;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-top: 0; }
+
+/* line 55, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+.paradise__gallery img {
+  width: 100%; }
+
+/* line 62, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+.paradise__news .news__item1--box {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px; }
+/* line 66, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+.paradise__news .news__item2--box {
+  margin-top: 20px; }
+/* line 69, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+.paradise__news .date {
+  float: left;
+  text-align: center; }
+  /* line 74, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+  .paradise__news .date .day {
+    background: #EEB31C;
+    color: white;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    margin: 0;
+    border-radius: 3px;
+    position: relative; }
+    /* line 82, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+    .paradise__news .date .day:after {
+      content: '';
+      height: 1px;
+      width: 37px;
+      background: rgba(255, 255, 255, 0.5);
+      position: absolute;
+      display: block;
+      top: 14px;
+      left: 0; }
+  /* line 95, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+  .paradise__news .date .month {
+    margin: 0; }
+/* line 99, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+.paradise__news .info {
+  margin-left: 5rem; }
+  /* line 101, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+  .paradise__news .info a {
+    text-decoration: none;
+    color: #EDB21A; }
+  /* line 105, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+  .paradise__news .info h5 {
+    font-size: 1.3rem;
+    margin: 0; }
+
+@media (max-width: 940px) {
+  /* line 119, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+  .paradise .innerWrapper {
+    width: 90%; }
+  /* line 122, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+  .paradise .paradise__aboutUs {
+    width: 45%;
+    margin: 0;
+    margin-left: 5%;
+    margin-bottom: 20px; }
+  /* line 128, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+  .paradise .paradise__gallery {
+    margin-right: 5%;
+    width: 45%;
+    margin-bottom: 50px; }
+  /* line 133, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+  .paradise .paradise__news {
+    width: 100%; }
+    /* line 135, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+    .paradise .paradise__news h4 {
+      text-align: center; }
+      /* line 137, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+      .paradise .paradise__news h4:after {
+        margin: 0 auto;
+        margin-bottom: 25px; }
+    /* line 142, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+    .paradise .paradise__news .news__item1--box, .paradise .paradise__news .news__item2--box {
+      float: left;
+      display: inline-block;
+      margin-top: 15px; }
+    /* line 149, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+    .paradise .paradise__news .news__item1--box {
+      border-bottom: none;
+      width: 47%;
+      margin-right: 3%; }
+    /* line 154, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+    .paradise .paradise__news .news__item2--box {
+      margin-left: 3%;
+      width: 47%; }
+ }
+
+@media (max-width: 740px) {
+  /* line 165, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+  .paradise .paradise__aboutUs {
+    width: 90%; }
+  /* line 169, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+  .paradise .paradise__gallery {
+    width: 90%;
+    margin-left: 5%; }
+ }
+
+@media (max-width: 640px) {
+  /* line 180, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+  .paradise .paradise__news h4 {
+    text-align: left;
+    margin-left: 5%; }
+    /* line 183, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+    .paradise .paradise__news h4:after {
+      margin: 0; }
+  /* line 187, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/paradise */
+  .paradise .paradise__news .news__item1--box, .paradise .paradise__news .news__item2--box {
+    width: 90%;
+    margin: 15px 5%; }
+ }
+
+/*===================================
+EXPLORE
+===================================*/
+/* line 395, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.explore {
+  background: white; }
+
+/* line 2, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+.explore h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+  padding: 5px 0; }
+  /* line 7, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+  .explore h2:after {
+    content: '';
+    height: 2px;
+    width: 20px;
+    background: #EDB212;
+    position: relative;
+    display: block;
+    top: 10px;
+    margin: 0 auto; }
+/* line 18, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+.explore img {
+  width: 100%; }
+/* line 21, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+.explore .third {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  /* line 26, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+  .explore .third .explore__room--float {
+    position: relative; }
+  /* line 30, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+  .explore .third .info {
+    background: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    padding: 15px;
+    position: absolute;
+    z-index: 10;
+    bottom: 0; }
+  /* line 39, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+  .explore .third h5 {
+    font-size: 1.2rem;
+    margin: 0;
+    padding-bottom: 15px; }
+  /* line 44, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+  .explore .third .icons {
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+    color: #EBB000; }
+    /* line 49, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+    .explore .third .icons i {
+      padding: 2px; }
+    /* line 53, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+    .explore .third .icons .explore__icons {
+      float: left; }
+    /* line 56, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+    .explore .third .icons .explore__star {
+      float: right; }
+      /* line 60, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+      .explore .third .icons .explore__star i:last-child {
+        color: #C5C5C5; }
+
+/* line 70, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+.explore__room__caption {
+  color: #888;
+  font-size: 1.2rem;
+  line-height: 2rem; }
+
+/* line 76, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+.explore__room__price {
+  color: #888;
+  text-transform: uppercase; }
+  /* line 79, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+  .explore__room__price .price {
+    color: #EAB325;
+    font-size: 2rem; }
+  /* line 84, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+  .explore__room__price p {
+    float: left;
+    margin: 13px 0; }
+  /* line 88, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+  .explore__room__price .button {
+    float: right;
+    background: #EEB31C;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px 0; }
+
+@media (max-width: 940px) {
+  /* line 100, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+  .explore {
+    margin-top: 50px; }
+    /* line 103, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+    .explore .third {
+      margin-right: 0;
+      margin-bottom: 0; }
+
+  /* line 108, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+  .explore__room1 {
+    width: 60%;
+    margin: 0 20%; }
+    /* line 111, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+    .explore__room1 .info {
+      margin: 0; }
+
+  /* line 115, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+  .explore__room2, .explore__room3 {
+    width: 45%; }
+
+  /* line 119, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+  .explore__room3 {
+    margin-left: 5%; }
+    /* line 121, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+    .explore__room3 .info {
+      margin: 0; }
+ }
+
+/* line 128, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+.explore .icons {
+  width: 100%;
+  margin: 0; }
+
+@media (max-width: 740px) {
+  /* line 135, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+  .explore__room1, .explore__room2, .explore__room3 {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%; }
+
+  /* line 140, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/explore */
+  .explore__room2 .info {
+    margin: 0; }
+ }
+
+/*===================================
+CONTACT
+===================================*/
+/* line 403, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.contact {
+  background: #F1EFE3; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/contact */
+.contact {
+  padding: 100px 0; }
+  /* line 3, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/contact */
+  .contact .third {
+    background: #FEFEFE;
+    padding: 20px;
+    text-align: center;
+    color: #A7A7A7;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    position: relative; }
+    /* line 12, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/contact */
+    .contact .third h3 {
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      letter-spacing: 0.15rem;
+      color: black;
+      margin-top: 35px; }
+    /* line 20, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/contact */
+    .contact .third .icon {
+      background: #344D54;
+      opacity: 0.9;
+      text-align: center;
+      color: white;
+      border-radius: 50%;
+      position: absolute;
+      top: -2%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+      /* line 32, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/contact */
+      .contact .third .icon i {
+        padding: 25px; }
+
+@media (max-width: 740px) {
+  /* line 44, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/contact */
+  .contact {
+    margin-top: 50px; }
+    /* line 46, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/contact */
+    .contact .third {
+      width: 90%;
+      margin-left: 5%;
+      margin-bottom: 70px; }
+      /* line 50, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/contact */
+      .contact .third:last-child {
+        margin-bottom: 0; }
+ }
+
+/*===================================
+NEWSLETTER
+===================================*/
+/* line 410, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+.newsletter {
+  background: white; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/newsletter */
+.newsletter {
+  margin-top: 40px; }
+  /* line 5, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/newsletter */
+  .newsletter .flourish {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+  /* line 9, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/newsletter */
+  .newsletter .form {
+    width: 100%;
+    display: inline-block;
+    padding: 40px 0;
+    text-align: center; }
+    /* line 15, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/newsletter */
+    .newsletter .form label {
+      font-family: 'Calligraffitti';
+      font-size: 1.8rem;
+      color: #656565;
+      letter-spacing: 0.15rem;
+      padding: 0 5px; }
+    /* line 23, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/newsletter */
+    .newsletter .form .inputText {
+      margin: 0 5px;
+      padding: 8px;
+      width: 250px; }
+      /* line 27, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/newsletter */
+      .newsletter .form .inputText:focus {
+        outline: none; }
+    /* line 32, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/newsletter */
+    .newsletter .form .button {
+      background: #EEB31C;
+      letter-spacing: 0.15rem;
+      text-transform: uppercase;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      margin: 0 5px;
+      width: none; }
+
+@media (max-width: 740px) {
+  /* line 49, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/newsletter */
+  .newsletter .form label {
+    width: 100%;
+    display: block;
+    margin-bottom: 25px;
+    font-size: 2.2rem; }
+  /* line 55, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/newsletter */
+  .newsletter .form .inputText {
+    padding: 12px;
+    width: 300px; }
+  /* line 59, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/newsletter */
+  .newsletter .form .button {
+    padding: 13px 25px; }
+ }
+
+@media (max-width: 550px) {
+  /* line 69, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/newsletter */
+  .newsletter .form .button {
+    margin-top: 25px; }
+ }
+
+/*===================================
+FOOTER
+===================================*/
+/* line 417, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/main.scss */
+footer {
+  background: #F5F5F5; }
+
+/* line 1, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/footer */
+.mainFooter {
+  padding: 50px 0; }
+  /* line 4, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/footer */
+  .mainFooter .logo {
+    padding: 35px 0; }
+  /* line 7, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/footer */
+  .mainFooter .fifth {
+    width: 20%;
+    float: left; }
+    /* line 10, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/footer */
+    .mainFooter .fifth h5 {
+      color: black;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15rem;
+      margin: 0; }
+  /* line 18, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/footer */
+  .mainFooter .footer__fifth {
+    list-style: none;
+    padding-left: 0;
+    color: #888;
+    line-height: 2; }
+    /* line 23, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/footer */
+    .mainFooter .footer__fifth i {
+      color: #EDB21A; }
+
+/* line 30, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/footer */
+.half {
+  width: 50%;
+  float: left;
+  display: inline-block; }
+  /* line 34, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/footer */
+  .half p {
+    display: inline-block;
+    text-transform: uppercase; }
+
+/* line 41, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/footer */
+.secondaryFooter__connect {
+  float: right;
+  position: relative;
+  padding: 0 20%; }
+  /* line 48, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/footer */
+  .secondaryFooter__connect .socialIcons {
+    position: absolute;
+    top: 5px;
+    left: 70%; }
+
+@media (max-width: 1170px) {
+  /* line 60, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/footer */
+  .secondaryFooter__connect {
+    padding: 0 25%; }
+ }
+
+@media (max-width: 940px) {
+  /* line 67, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/footer */
+  .mainFooter .fifth {
+    font-size: 0.9rem;
+    width: 25%;
+    float: left; }
+    /* line 71, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/footer */
+    .mainFooter .fifth:first-child {
+      width: 100%; }
+    /* line 74, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/footer */
+    .mainFooter .fifth .logo {
+      margin: 0 auto; }
+
+  /* line 80, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/footer */
+  .secondaryFooter__connect {
+    padding: 0 30%; }
+ }
+
+@media (max-width: 740px) {
+  /* line 87, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/footer */
+  .secondaryFooter .connect {
+    width: 70%; }
+
+  /* line 90, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/footer */
+  .secondaryFooter .copy {
+    width: 30%; }
+ }
+
+@media (max-width: 640px) {
+  /* line 97, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/footer */
+  .mainFooter .fifth {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px; }
+    /* line 101, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/footer */
+    .mainFooter .fifth:first-child {
+      display: none; }
+ }
+
+@media (max-width: 550px) {
+  /* line 109, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/footer */
+  .secondaryFooter .copy {
+    width: 30%; }
+
+  /* line 112, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/footer */
+  .secondaryFooter .connect {
+    width: 70%; }
+    /* line 114, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/footer */
+    .secondaryFooter .connect .secondaryFooter__connect {
+      padding: 0;
+      padding-right: 100px; }
+      /* line 117, /Users/jordandeutsch/Documents/current projects/Hacker You/Week 3/PROJECT/Luxen Copy/footer */
+      .secondaryFooter .connect .secondaryFooter__connect .socialIcons {
+        left: 55%; }
+ }
+/*# sourceMappingURL=main.css.map */

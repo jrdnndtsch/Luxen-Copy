@@ -1,0 +1,423 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}dfn{font-style:italic;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;word-wrap:break-word;}q{quotes:\201C \201D \2018 \2019;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}img{border:0;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,html input[type=button],/* 1 */
+input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}button[disabled],input[disabled]{cursor:default;}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}body,figure{margin:0;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html{
+	font-size: 10px;
+}
+
+body{
+	font-family: 'Muli';
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Varela Round';
+}
+
+img{
+	max-width: 100%;
+}
+
+.innerWrapper{
+	max-width: 1170px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+/*===================================
+MIXINS! and shit
+===================================*/
+@mixin button{
+	background: #EEB31C;
+	letter-spacing: 0.15rem;
+	text-transform: uppercase;
+	color: white;
+	padding: 10px 15px;
+}
+
+.third{
+	width: 31.33%;
+	float: left;
+	margin-right: 3%;
+	&:last-child{
+	margin-right:0;
+	}
+}	
+
+
+@mixin layout($value, $margin : auto) {
+	float: left;
+	display: inline-block;
+	width: $value;
+	margin: $margin;
+}
+
+
+/*===================================
+TOP NAV
+===================================*/
+.topNav{
+	background: #3F3737;
+	color: #B3B2B0;
+	width: 100%;
+
+}
+
+	.topNav__address{
+		width: 50%;
+		float: left;
+		margin-top: 10px;
+	}
+
+	.topNav--right{
+		float: right;
+		width: 50%;
+		text-align: right;
+		margin-top: 10px;
+	}
+		.topNav__address p{
+			
+		}
+
+	.topNav__links{
+		float: left;
+		width: calc(100% - 80px);
+	}
+
+		.topNav li{
+			list-style:none;
+			display: inline-block;
+			// float: left;
+			padding-left: 5%;
+			padding-right:5%;
+		}
+
+
+		.topNav a{
+			text-decoration: none;
+			color: #B3B2B0;
+		}
+	.topNav__language{
+		float: right;
+		margin-right: 0;
+		padding-left: 25px;
+		border-left: 1px solid rgba(255,255,255,0.2);
+		position: relative;
+	}	
+		.topNav__language img{
+			float:right;
+			position: absolute; 
+			top:25%;
+			left: 10%;
+			margin-right:10px;
+		}
+		.topNav__language p{
+			float: right;
+			text-transform: uppercase;
+		}
+
+// ====================
+// TOP NAV MEDIAQUERIES
+// ====================	
+
+@media(max-width: 840px){
+	.innerWrapper{
+		width: 95%;
+		.topNav__address{
+			width: 100%;
+			p{
+				margin-bottom: 0;
+			}
+		}
+		.topNav--right{
+			width: 100%;
+			.topNav__links{
+				width: 100%;
+				float: none;
+				margin:0;
+				ul{
+					margin:0;
+					padding-left: 0;
+					li{
+						width: 100%;
+						margin:0;
+						text-align: left;
+						padding: 0;
+						padding-top: 5px;
+					}
+				}
+			}
+				
+			
+			.topNav__language{
+				border:none;
+			}
+		}
+	}	
+}	
+
+
+/*===================================
+MAIN NAV
+===================================*/
+
+.mainNav{
+	background: #322C2C;
+	text-transform: uppercase;
+	color: white;
+
+}
+
+
+	.mainNav__logo{
+		float: left;
+		width: 30%;
+		padding: 25px 0;
+
+	}
+	
+	.mainNav__links{
+		margin: 0;
+		width: 70%;
+		float: left;
+		padding-left: 0;
+	}
+
+		.mainNav__links a{
+			text-decoration: none;
+			color: white;
+			font-size: 1rem;
+			display: inline-block;
+			float: left;
+			padding:50px 0px;
+			width: 16.99999%;
+			text-align: center;
+			font-size: 1.1rem;
+		}
+
+		.mainNav__news a{
+			width:12%;
+		}
+		.mainNav .button {
+			width: 20%;
+		}
+		.mainNav__links li{
+			list-style: none;
+			
+		}
+		.mainNav__hamburger{
+			width: 20%;
+			float: right;
+			padding:30px 30px;
+			font-size: 3.5rem;
+			color: rgba(255,255,255,0.8);
+			display: none;
+		}
+
+			.mainNav__links a:after{
+				content: '';
+				height: 1px;
+				width: 20px;
+				background: #EDC373;
+				position: relative;
+				display: block;
+				margin:0px auto;
+				top: 10px;
+				opacity: 0;
+			}
+
+	
+		.mainNav__links li:hover a{
+			color: #E3AC1E;
+			background: #231E1D;
+		}
+
+		.mainNav__links li:hover a:after{
+			opacity: 1;
+
+		}
+
+		.mainNav__links li:hover a.button:after{
+			opacity:0;
+		}
+	
+
+			.mainNav__links .button{
+				background: #EEB31C;
+				padding: 10px 20px;
+				margin-top: 40px;
+			}
+
+			.mainNav__links .currentPage{
+				color: #E3AC1E;
+				background: #231E1D;
+			}
+
+/*===================================
+MAIN NAV MEDIA QUERIES!! ;D
+===================================*/
+@media(max-width: 1170px) {
+	
+	.innerWrapper{
+		max-width: 960px;
+	}
+	.mainNav__links a{
+		font-size: .9rem;
+	}
+
+}
+
+@media (max-width: 940px){
+	.mainNav{
+		position: relative;
+
+	}
+	.mainNav__links a{
+		display: block;
+		width: 100%; 
+		padding: 25px 0;
+		border-bottom: 1px solid rgba(255,255,255,0.3);
+		font-size: 1.5rem;
+	}
+	.mainNav__links .button{
+		width: 100%;
+		padding: 25px 0;
+		margin-top: 0;
+	}
+	.mainNav__logo{
+		float: none;
+		padding-left:20px;
+		width: 70%;
+		display: inline-block;
+			
+	}
+	.mainNav__hamburger{
+		display: inline-block;
+			}
+	.mainNav .innerWrapper{
+		width: 100%;
+	}
+
+	.mainNav__links{
+		width: 100%;
+		position: absolute;
+		z-index: 20;
+		background: #231D1C;
+		display: none;
+	}
+}
+
+/*===================================
+HERO
+===================================*/
+
+.hero{
+	background:#272121;
+	background-image: url(images/istanbul.jpg);
+	background-size:cover;
+	position: relative;
+
+	
+}
+
+		.hero__img{
+			color: white;
+			padding:250px 0;
+		}
+
+
+		.hero__img h2{
+			background: black;
+			text-transform: uppercase;
+			letter-spacing: 0.15rem;
+			font-size: 1.5rem;
+			display: inline-block;
+			float: left;
+			padding: 19px;
+			margin: 0;
+			padding-right: 200px;
+    		-webkit-clip-path: polygon(0% 100%,75% 100%,85% -150%,0px 0px);
+		}
+
+		.hero__img h3{
+			background: #EEB21C;
+			display: inline-block;
+			float: left;
+			clear: left;
+			padding: 13px;
+			margin: 0;
+			padding-right: 80px;
+    		-webkit-clip-path: polygon(0% 100%,75% 100%,92% -150%,0px 0px);
+
+		}
+
+/*===================================
+HERO QUERIES
+===================================*/
+	@media(max-width: 1170px){
+		.hero__img{
+			padding:225px 0;
+		}
+	}	
+
+	@media(max-width: 940px){
+		.hero__img{
+			padding:200px 0;
+		}
+	}
+
+/*===================================
+RESERVATION
+===================================*/
+
+
+/*Reservation Form*/
+
+	
+
+@import "reservation";
+	
+
+/*===================================
+PARADISE
+===================================*/
+.paradise{
+	background: white;
+}
+
+@import "paradise";
+/*===================================
+EXPLORE
+===================================*/
+.explore{
+	background: white;
+}
+
+@import "explore";
+/*===================================
+CONTACT
+===================================*/
+.contact{
+	background: #F1EFE3;
+}
+@import "contact";
+/*===================================
+NEWSLETTER
+===================================*/
+.newsletter{
+	background: white;
+}
+@import "newsletter";
+/*===================================
+FOOTER
+===================================*/
+footer{
+	background: #F5F5F5;
+}
+@import "footer";
+
+
+

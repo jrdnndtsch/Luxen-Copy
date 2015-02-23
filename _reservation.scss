@@ -1,0 +1,249 @@
+.reservation{
+	background: #1D1A1B;
+	background-image: url('images/bg_pattern.jpg');
+	color: white;
+	position: relative;
+	padding-top: 20px;
+	border-bottom: 3px solid rgba(238, 179, 21, 0.9);
+}
+
+	.reservation__tabs{
+		display: inline-block;
+		position: absolute;
+		bottom: 0;
+		left:10%;
+		color: white;
+		text-transform: uppercase;
+		
+	}
+
+		.reservation__tabs--cal{
+			background: #121011;
+			float: left;
+			border-radius: 5px 5px 0 0;
+			box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+			margin-right: 10px;
+			margin-bottom: 0;
+		}
+
+
+		.reservation__tabs--check{
+			background: #EEB31C;
+			float: left;
+			border-radius: 5px 5px 0 0;
+			box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+			margin-bottom: 0;
+		}
+
+		.reservation__tabs a{
+			color: white;
+			text-decoration: none;
+			padding: 10px 25px;
+
+		}
+
+
+
+.reservation__form__all{
+		width: 100%;
+
+		.arrival, .return{
+			width: 25%;
+			position: relative;
+		}
+		.adult, .children, .rooms,{
+			width: 12.5%;
+			position: relative;
+		}
+
+	}
+	.reservation__form {
+		display: inline-block;
+
+		label{
+			display: block;
+			text-transform: uppercase;
+			padding:5px 0;
+
+		}
+
+		.fill{
+			background: #1D191A;
+			border:1px solid #EEB31C;
+			border-radius: 0;
+			-webkit-appearance:none;
+			width: 75px;
+			padding:5px;
+			color: white;
+
+
+		}
+		input.fill{
+			width: 200px;
+			color: #EEB31C;
+
+			&::-webkit-input-placeholder{
+				color: white;	
+			}
+			&:-moz-placeholder{
+				color:white;
+			}
+			&:-ms-input-placeholder{
+				color: white;
+			}
+
+		}
+		.select__icon{
+			position: relative;
+			&:after{
+				content: '\f107';
+				color: #EEB31C;
+				font-family: 'FontAwesome';
+				position: absolute;
+				top:2px;
+				right: 11px;
+				z-index: 20;
+
+			}
+		}
+
+		.input__icon{
+			position: relative;
+			&:after{
+				content: '\f073';
+				color: #EEB31C;
+				font-family: 'FontAwesome';
+				position: absolute;
+				top:0px;
+				right: 11px;
+			}
+		}	
+		
+		.button{
+			@include button;
+			border:none;
+		}
+	}	
+
+
+
+.reservation__features{
+	ul{
+		padding-left:0;
+		li{
+			display: inline-block;
+			float: left;
+			width: 25%;
+			text-align: center;
+			text-transform: uppercase;
+			padding:25px 0;
+			border-right: 1px solid rgba(255,255,255,0.2);
+			&:last-child{
+				border-right: none;
+			}
+				i{
+					color: #ECB31D;
+					padding: 0 2px;
+
+				}
+		}
+	
+	}
+	
+}	
+
+
+// ====================
+// MEDIAQUERIES
+// ====================
+
+@media(max-width: 1170px){
+	.reservation__form{
+		input.fill{
+		width: 180px;
+		}
+
+	}
+
+	.reservation__features{
+		ul{
+			li{
+				padding: 15px 0;
+				margin-top: 10px;
+			}
+		}
+	}
+	
+}
+
+@media(max-width: 940px){
+	.reservation{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		.reservation__form{
+			// display: none;
+		}
+	.reservation__features{
+		li{
+			width: 50%;
+			padding:10px;
+			&:nth-child(2){
+				border-right: none;
+			}
+		}
+	}
+	}
+	
+	.reservation__form__all{
+		display: none;
+		.arrival, .return{
+			width: 60%;
+			float: left;
+			margin:0 20%;
+			margin-bottom: 10px;
+			input.fill{
+				width: 100%;
+
+			}
+		}
+		.adult, .children, .rooms{
+			width: 18%;
+			margin-right:3%;
+			float: left;	
+			select.fill{
+				width: 100%;
+			}
+		}
+		.rooms{
+			margin-right: 20%;
+		}
+		.adult{
+			margin-left: 20%;
+		}
+	}
+	.submit{
+		width: 100%;	
+		.button{
+			width: 60%;
+			margin: 20px 20%;
+		}
+	}
+		
+}
+
+@media(max-width: 550px){
+	.reservation{
+		.reservation__features{
+			li{
+				width: 100%;
+				border-right: none;
+				border-bottom: 1px solid rgba(255,255,255,0.2);
+				&:last-child{
+					border-bottom: none;
+				}
+			}
+		}
+	}
+}
+
+

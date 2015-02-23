@@ -1,0 +1,143 @@
+.explore{
+	h2{
+		font-size: 2rem;
+		text-align: center;
+		margin:0;
+		padding: 5px 0;
+		&:after{
+					content: '';
+					height: 2px;
+					width: 20px;
+					background: #EDB212;
+					position: relative;
+					display: block;
+					top: 10px;
+					margin:0 auto;
+		}
+	} //end h2
+	img{
+		width: 100%;
+	}
+	.third{
+		
+		margin-top: 50px;
+		margin-bottom: 50px;
+		
+		.explore__room--float{
+			position: relative;
+		}
+
+		.info{
+			background:rgba(255,255,255,0.7);
+			width: 100%;
+			padding: 15px;
+			position: absolute;
+			z-index: 10;
+			bottom:0;
+		}
+
+		h5{
+			font-size: 1.2rem;
+			margin:0;
+			padding-bottom: 15px;
+		}
+		.icons{
+			font-size: 1.2rem;
+			padding-bottom: 10px;
+			color:#EBB000;
+
+			i{
+				padding: 2px;
+			}
+
+			.explore__icons{
+				float: left;
+			}
+			.explore__star{
+				float: right;
+				i{
+
+					&:last-child{
+						color:#C5C5C5;
+					}
+				}
+				
+			}
+		}
+	}
+} //end .explore
+
+.explore__room__caption{
+	color: #888;
+	font-size: 1.2rem;
+	line-height: 2rem;
+}
+
+.explore__room__price{
+	color:#888;
+	text-transform: uppercase;
+		.price{
+			color: #EAB325;
+			font-size: 2rem;
+
+		}
+		p{
+			float: left;
+			margin:13px 0;
+		}
+		.button{
+			float: right;
+			@include button;
+			margin:10px 0;
+		}
+}
+
+// ===================
+// MEDIAQUERIES (rock)
+// ===================
+
+@media(max-width: 940px){
+	.explore{
+		margin-top: 50px;
+
+		.third{
+			margin-right: 0;
+			margin-bottom: 0;
+		}
+	}
+	.explore__room1{
+		width: 60%;
+		margin: 0 20%;
+		.info{
+			margin: 0;
+		}
+	}
+	.explore__room2, .explore__room3{
+		width: 45%;
+	}
+	
+	.explore__room3{
+		margin-left: 5%;
+		.info{
+			margin:0;
+		}
+	}
+}
+
+.explore{
+	.icons{
+		width: 100%;
+		margin:0;
+	}
+}
+
+@media(max-width: 740px){
+	.explore__room1, .explore__room2, .explore__room3{
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.explore__room2 .info{
+		margin:0;
+	}
+}
